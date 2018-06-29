@@ -1,0 +1,26 @@
+.all{
+    padding-top:45rpx;
+    padding-left:24rpx;    
+}
+.all>.box{
+    height:145rpx;
+    display:flex;  
+    margin-bottom: 72rpx; 
+}
+.all>.box>image{
+    width:218rpx;
+    height:145rpx;
+    margin-right:40rpx;
+}
+.all>.box>.content{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size:28rpx;
+    color:#333;
+}
+
+.all>.box>.content>.xue{
+    color:#78CC00;
+    font-size:20rpx;
+}

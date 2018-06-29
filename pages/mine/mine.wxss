@@ -1,0 +1,60 @@
+/* pages/mine/mine.wxss */
+page{
+    background-color: #eee;
+}
+.tou{
+    background-color: #fff;
+    height: 387rpx;
+    box-sizing: border-box;
+    padding-top:74rpx;
+    padding-bottom: 59rpx;
+    display:flex;
+    flex-direction: column;   
+    align-items: center; 
+}
+.tou>image{
+    width: 180rpx;
+    height: 180rpx;
+    border-radius: 50%;
+}
+.tou>text{
+    font-size:28rpx;
+    color:#333333;    
+}
+.time{
+    margin:30rpx 0;
+    height: 100rpx;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#333333;
+    font-size:28rpx;
+    padding:0 50rpx;
+    background-color: #fff;
+}
+.time>.date{
+    color:#A2A2A2;
+    font-size:24rpx;
+}
+.content{
+    height: 400rpx;
+    padding: 52rpx;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size:28rpx;
+    color:#333333;
+    background-color: #fff;
+}
+.content>.cell{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+.content>.cell>image{
+    width:14rpx;
+    height:25rpx;
+}
+
+
+

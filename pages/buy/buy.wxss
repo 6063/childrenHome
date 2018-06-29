@@ -1,0 +1,51 @@
+page{
+    background-color: #eee;
+}
+
+.luobo{
+    width: 100%;
+    box-sizing: border-box;    
+    height:480rpx;   
+}
+.luobo .activity{
+    width: 750rpx;
+    height: 477rpx;
+  }
+  .luobo .activity image{
+    width: 640rpx;
+    height: 360rpx; 
+    border-radius: 10rpx;
+    margin:38rpx 26rpx 48rpx 48rpx;
+  }
+.box{
+    height: 759rpx;
+    background-color: #fff;
+    padding-top:48rpx;
+    padding-left:49rpx;
+}
+.box>.title{
+    color:#333333;
+    font-size:32rpx;
+    margin-bottom: 52rpx;
+    font-weight: bold;
+}
+.box>.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size:24rpx;
+    color:#333333;
+    margin-bottom: 315rpx;
+    height: 119rpx;
+}
+.box>button{
+    width:510rpx;
+    height:96rpx;
+    color:#fff;
+    background:rgba(255,84,124,1);
+    border-radius:48rpx;
+    font-size:30rpx;
+    line-height: 96rpx;
+    text-align: center;
+    box-shadow:0 21rpx  46rpx rgba(255,84,124,0.47); 
+}

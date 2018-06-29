@@ -1,0 +1,13 @@
+<form bindsubmit="formSubmit">
+  <view class="box">
+    <input type="text" placeholder='请输入手机号'></input>
+    <view class="section">
+      <input type="text" placeholder='请输入验证码'></input>
+      <text>发送验证码</text>
+    </view> 
+  </view>
+  <view class="info">
+    绑定手机成功后可免费获得三天体验VIP哦~
+  </view>
+    <button formType="submit">验证绑定</button>  
+</form>

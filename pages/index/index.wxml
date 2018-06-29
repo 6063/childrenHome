@@ -1,0 +1,58 @@
+<view class="luobo">
+    <swiper class="activity" previous-margin="{{previousMargin}}" next-margin="{{nextMargin}}" indicator-dots="{{indicatorDots}}"
+            autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" width="355" height="155"/>
+        </swiper-item>
+      </block>
+    </swiper>
+</view>
+<view class="hotCourse">
+    <viw class="topTitle">
+        <view class="left">
+            <image src="../../images/hot@2x.png"></image>
+            <text>热门课程</text>
+        </view>
+        <text>更多></text>
+    </viw>
+    <view class="hotImg">
+        <scroll-view scroll-x style="width:100%">
+            <block wx:for="{{hotLesson}}">
+                <view style="background-color:{{item.color}}" class="item">
+                    <text class="title">{{item.title}}</text>
+                    <text class="subtitle">{{item.subtitle}}</text>
+                </view>
+            </block>
+        </scroll-view>
+    </view>
+</view>
+<view class="introVideo">
+    <viw class="topTitle">
+        <image src="../../images/intro@2x.png"></image>
+        <text>推荐视频</text>
+    </viw>
+    <view class="hotImg">
+        <view class="singleBox">
+           <image src="../../images/intro-01@2x.png"></image> 
+           <text class="title">非常可爱的布偶制作流程</text>
+           <text class="subtitle">333人观看</text>
+        </view>
+        <view class="singleBox">
+           <image src="../../images/intro-02@2x.png"></image> 
+           <text class="title">非常可爱的布偶制作流程</text>
+           <text class="subtitle">333人观看</text>
+        </view>
+         <view class="singleBox">
+           <image src="../../images/intro-03@2x.png"></image> 
+           <text class="title">非常可爱的布偶制作流程</text>
+           <text class="subtitle">333人观看</text>
+        </view>
+        <view class="singleBox">
+           <image src="../../images/intro-04@2x.png"></image> 
+           <text class="title">非常可爱的布偶制作流程</text>
+           <text class="subtitle">333人观看</text>
+        </view>
+    </view>
+</view>
+

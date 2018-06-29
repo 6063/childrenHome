@@ -1,0 +1,75 @@
+page{
+    background-color: #F5F7FB;
+}
+
+.top{
+    height: 299rpx;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.top .title{
+    display: block;
+    font-size:34rpx;
+    text-align:center;
+    color:#333;
+    margin-top:103rpx;
+}
+.top .subtitle{
+    display: block;
+    font-size:26rpx;
+    color:#959595;
+    text-align:center;
+    margin-top:23rpx;
+}
+.input{
+    box-sizing: border-box;
+    height:478rpx;
+    background-color: #fff;
+    padding:71rpx 73rpx 69rpx;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;  
+}
+.input .cell>label{
+    font-size:28rpx;
+    color:#333;
+    width: 92rpx;
+    text-align: right;
+    margin-right:46rpx;
+}
+.input .cell>label:nth-of-type(1){
+    margin-right:100rpx;
+}
+.input .cell>input{
+    flex:1;
+    border-bottom: 1px solid rgb(248, 241, 241);
+}
+.input .cell>picker{
+    flex:1;
+    border-bottom: 1px solid rgb(248, 241, 241);
+}
+.input .cell{
+    display:flex;
+    font-size:28rpx;
+    align-items: center;
+}
+
+.hh>label{
+    width:92rpx;
+    font-size:26rpx;
+}
+.prince{
+    margin-right:60rpx;
+}
+
+
+button{
+    box-sizing: border-box;
+    width:510rpx;
+    height:96rpx;
+    margin-top:168rpx;
+    color:#fff;
+    background:rgba(255,84,124,1);
+    border-radius:48rpx;
+    box-shadow:0px 21rpx 46rpx rgba(255,84,124,0.47);
+}

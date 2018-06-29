@@ -1,0 +1,17 @@
+<view class="all">
+    <block wx:for="{{kechengData}}" wx:for-index="idx">
+        <view class="box">
+            <image src="{{item.lujing}}"></image>
+            <view class="right">
+                <view class="content">
+                    <text>{{item.title}}</text>
+                    <text class="xue">{{item.subtitle}}</text>
+                </view>            
+                <button wx:if="{{item.flag > 0}}" bind:tap="tiao" data-id="{{idx}}">了解课程</button>
+                <button  wx:else style="background-color:lightgray">人数满额</button>
+               
+            </view>
+        </view>
+    </block>
+   
+</view>

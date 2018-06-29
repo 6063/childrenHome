@@ -1,0 +1,37 @@
+<view class="all">
+<view class="box">
+    <image src="../../images/study01@2x.png"></image>
+    <view class="content">
+        <text>创意班 橡皮泥的使用</text>
+        <text class="xue">已学20%</text>
+    </view>
+</view>
+<view class="box">
+    <image src="../../images/study02@2x.png"></image>
+    <view class="content">
+        <text>美术班 荷花的使用</text>
+        <text class="xue">已学30%</text>
+    </view>
+</view>
+<view class="box">
+    <image src="../../images/study03@2x.png"></image>
+    <view class="content">
+        <text>素描班 立体球的绘制</text>
+        <text class="xue">已学40%</text>
+    </view>
+</view>
+<view class="box">
+    <image src="../../images/study04@2x.png"></image>
+    <view class="content">
+        <text>速写板 橡皮泥的使用</text>
+        <text class="xue">已学50%</text>
+    </view>
+</view>
+<view class="box">
+    <image src="../../images/study02@2x.png"></image>
+    <view class="content">
+        <text>美术班 荷花的使用</text>
+        <text class="xue">已学30%</text>
+    </view>
+</view>
+</view>

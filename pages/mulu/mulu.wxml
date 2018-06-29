@@ -1,0 +1,69 @@
+<video src="{{bofangData[id].lujing}}" bindended="shikan" 
+ controls autoplay enable-progress-gesture></video>
+<view class="intro">
+    <view class="title">{{bofangData[id].title}}视频演示
+        <button class="share" style="float:right" bindtap="fentiao">购买</button>
+    </view>    
+    <view class="content">
+        <text>主讲：酷老师</text>
+        <text>|</text>
+        <text>课时：{{movieList.length}}</text>
+        <text>|</text>
+        <text>562人已学习</text>
+    </view>
+</view>
+<view class="box">
+     <view class="weui-tab">
+        <view class="weui-navbar">
+            
+                <block wx:for="{{tabs}}" wx:key="*this">
+                    <view id="{{index}}" class="ff weui-navbar__item {{activeIndex == index ? 'weui-bar__item_on' : ''}}" bindtap="tabClick">
+                        <view class="weui-navbar__title ziti">{{item}}</view>
+                    </view>
+                </block>
+
+           
+            <view class="weui-navbar__slider" style="left: {{sliderLeft}}px; top:{{top}}rpx; transform: translateX({{sliderOffset}}px); -webkit-transform: translateX({{sliderOffset}}px);"></view>
+        </view>
+        <view class="weui-tab__panel bao">
+            <view class="weui-tab__content" hidden="{{activeIndex != 0}}">
+                <block wx:for="{{movieList}}" wx:for-index="idx">
+                    <view data-idx="{{idx}}" class="cell {{idx == id ? 'colore' : 'a2'}}" bindtap='huan'>
+                        <view>{{item.lD}}</view>
+                        <view>{{item.tD}}</view>
+                    </view>    
+                </block>
+            </view>
+            <view class="weui-tab__content" hidden="{{activeIndex != 2}}">
+                <block wx:for="{{comData}}">
+                    <view class="nei">
+                        <view class="comcell">
+                            <image src="{{item.lujing}}"></image>
+                            <view class="r">
+                                <view class="rtitle">{{item.title}}</view>
+                                <view>{{item.subtitle}}</view>
+                            </view>
+                        </view>
+                    </view>    
+                </block>
+            </view>
+            <view class="weui-tab__content" hidden="{{activeIndex != 1}}">
+                <view class="xiang">
+                    <text>这里有各种奇思妙想，</text>
+                    <text>有疯狂的简笔画，</text>
+                    <text>会教你用叉子打蝴蝶结，</text>
+                    <text>各种新奇玩意，</text>
+                    <text>只要你在生活中发现任何美好的事物，</text>
+                    <text>我们都能动手制作出来。</text>
+                    <text></text>
+                    <text></text>
+                    <text>陶艺体验、美味厨艺、创意手工、艺术涂鸦</text>
+                    <text>等多种不同艺术形式，给孩子留下美好的童年记忆。</text>
+
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
+
+

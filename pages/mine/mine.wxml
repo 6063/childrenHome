@@ -1,0 +1,31 @@
+<view class="tou">
+  <block wx:if="{{sex == '女'}}"> 
+    <image  src="../../images/ke2@2x.png"></image>
+  </block>
+    <block wx:else> 
+       <image src="../../images/ke1@2x.png"></image>
+     </block>
+    <text>{{userNme}}</text>
+</view>
+<view class="time">
+    <text>VIP会员到期时间</text>
+    <text class="date">2019-05-05  12:05</text>
+</view>
+<view class="content">
+    <view class="cell" bind:tap="tiao">
+        <text>绑定手机号</text>
+       <image src="../../images/arrow@2x.png"></image>
+    </view>
+    <view class="cell">
+        <text>我的关注</text>
+       <image src="../../images/arrow@2x.png"></image>
+    </view>
+    <view class="cell">
+        <text>使用须知</text>
+       <image src="../../images/arrow@2x.png"></image>
+    </view>
+    <view class="cell">
+        <text>我的客服</text>
+       <image src="../../images/arrow@2x.png"></image>
+    </view>
+</view>
